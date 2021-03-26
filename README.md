@@ -336,6 +336,27 @@ WINDOWS
 </code>
 <br>
 
+## Rebase  
+`git rebase`  
+
+Create and Init a git repository  
+`git init bits`  
+Enter in the created folder  
+`cd bits`  
+Use another terminal to show the folders tree structure  
+`while; do; clear; tree .git; sleep 1; done;`  
+Delete the hooks  
+`rm -rf .git/hooks`  
+Create a new file  
+`echo "Teste digitando uma frase qualquer." | git hash-object -w --stdin`  
+Show file contents  
+`git cat-file -p <hash>`  
+Show file type  
+`git cat-file -t <hash>`  
+
+
+
+
 
 
 
